@@ -1,0 +1,34 @@
+body, .copyright {
+  background-color: #7979d2;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#nav {
+  background-color: #66ffff;
+  float: left;
+  width: 20%;
+  height: 400px;
+  font-family: arial;
+}
+
+#content {
+  background-color: #3399ff;
+  float: left;
+  width: 75%;
+  height: 400px;
+  text-align: center;
+  font-family: arial;
+}
+
+#content> ul {
+  list-style: none;
+}
+.copyright {
+  padding-top: 5px;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
