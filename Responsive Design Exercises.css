@@ -1,0 +1,42 @@
+/*Part 1*/
+/*What is an em?
+em is a relative unit of measurement.  It sizes element relative to the default font-size for the element.  
+What is the difference between em and rem?
+rem is like em, but rem is relative to the root element.
+What is "mobile first" design?
+It's the concept of prioritizing designing for usage on mobile devices, as opposed to desktop and/or tablets.
+What is BEM?
+Stands for Block, Element, and Modifier and is a way structuring CSS classes to help write more maintainable CSS.*/
+
+
+/*Part II*/
+.col-4 {
+	width: 33%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+@media (min-width: 765px) and (max-width: 960px){
+    .col-4 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 765px){
+    .col-4 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 960px){
+    .col-6 {
+        width: 100%;
+    }
+}
+
