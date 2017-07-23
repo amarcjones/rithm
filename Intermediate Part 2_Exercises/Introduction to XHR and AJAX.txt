@@ -1,0 +1,22 @@
+1. Where else have you seen 'asynchronous' code before? Think back to a certain section in Part I of the Intermediate JavaScript course.
+We saw asynchronous code in the section on timers, when using callbacks (callbacks enable us to manage asynchronous code).
+
+2. What is XHR?
+XMLHttpRequest is an API that allows for transferring data between client and server.  You use the XHR object in JavaScript to communicate with a server and send/retireve data.
+
+3. What is XML? Why do we prefer to use JSON?
+Extensible Markup language is primarily used to store text data.  It looks similar to HTML, but in XML you can create you own tags.
+
+4. What is AJAX?
+Asynchronous JavaScript and XML is a set of technologies that allow for building single page applications because the apps don't require a full page refresh to change data on the page.  
+
+5. Using the XHR object, make a request to https://omdbapi.com and choose a title to search by using the query string and key of t.
+XHR.open("GET", "https://omdbapi.com?t=terminator");
+XHR.send();
+
+6. Using the fetch API, make a request to https://omdbapi.com and choose a title to search by using the query string and key of t.
+fetch('https://omdbapi.com?t=terminator').then(function(response){
+    return response.json().then(function(data){
+        console.log(data);
+    });
+});

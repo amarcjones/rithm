@@ -1,0 +1,63 @@
+1.  What is HTTP?
+Hypertext Transfer Protocol is a protocol/standard for communication between servers and browsers.
+
+2.  What is a URL?
+A URL is a human readable name that corresponds to an IP address. 
+
+3.  What is TCP?
+Transmission Control Protocol provides a system of reliable, order, and error checked delivery of packets. 
+
+4.  What is IP?
+Internet Protocol is the unique address associated with each device that access the internet.
+
+5.  What is DNS?
+Domain Network Servers translate domain names(human readable addresses) into IP addresses, so computers can use them.
+
+6.  What is idempotent?
+An idempotent operation is one that will repeatedly produce the same result.
+
+7.  What is a query string?
+A query string is a collection of additional parameters provided to a web server,
+
+8.  What is a path or route?
+A path or route specifies the unique location in a file system.
+
+9.  List four HTTP Verbs and their use cases.
+GET - An idempotent operation that is designed for getting data from the server.
+POST - A non idempotent operation that can create data on the server or otherwise modify data.
+PUT - Technically idempotent, but commonly used for updating data that already exists on the server.
+PATCH - Non idempotent and also used for modifying data on the server. 
+
+10. What is a client?
+A client is the computer (or server) where a request originates.
+
+11.  What is a server?
+A server is the location where the information resides.
+
+12.  What is an HTTP request?
+An HTTP request is a request for some information from at a URL
+
+13.  What is an HTTP response?
+An HTTP response is what's sent back from the server, to the requesting computer.
+
+14.  What is an HTTP header?  Give a couple of examples of request and response headers you have seen.
+An HTTP header is a means of passing in additional meta-information to the request.  Examples include cookies and caching information.
+
+15.  What is REST?
+REST is is an architectural style, and an approach to communications that is often used in the development of Web services. The purpose of REST is to provide a framework for creating fast, scalable and reliable APIs.
+
+16.  What is JSON?
+JavaScript Object Notation is a format for structuring data, used primarily to transmit data between a server and web application.
+
+17.  What happens when you type "Hello World" in google.com and press enter?
+In short, the request is sent to google servers.  Those serves process the words based google algorithms and return the generated list of results.
+
+18.  What does is mean when we say the web is "stateless"?
+The web being stateless means it does keep track of configuration settings, transaction information, or any other data for the next session.
+
+19.  What is curl?
+curl provides a library and command-line tool for transferring data using various protocols.
+
+20.  Make a GET request to http://omdbapi.com/t=titanic using curl(your answer should be the curl command required).
+curl -v 'http://omdbapi.com/t=titanic' \
+

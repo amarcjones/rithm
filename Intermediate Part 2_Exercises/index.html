@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+    <!-- Link to load Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- jQuery script link -->
+	<!-- jQuery should be included before JavaScript script -->
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.js"
+  	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  	crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	<!-- This script tag has to come after the script that loads the jquery library -->
+	<script src="main.js"></script>	
+
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row" style="text-align: center"><h1>My Favorite Cities</h1></div>
+		
+		<form class="form-inline" id="inputForm">
+		  <label for="cityNameInput"> City </label>
+		  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="cityNameInput" placeholder="Next Stop...">
+
+		  <label for="cityRatingInput"> Rating </label>
+		  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="cityRatingInput" placeholder="5(highest) to 1(lowest)">
+
+		  <button type="submit" class="btn btn-primary" id="rowAdd" value="add"> Add City </button>
+		</form>
+		<br>
+		<table class="table" id="cityList" style="text-align: center;">
+			<thead>
+			    <tr>
+			      <th style="text-align: center;">Title</th>
+			      <th style="text-align: center;">Rating</th>
+			      <th style="text-align: center;">Delete</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			  </tbody>
+		</table>
+
+	</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>JS Part II Final</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- These are the bare minimums to run bootstap (css/bootstrap.min.css, jquery.min.js, and bootstrap.min.js) -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- script to main.js -->
+	<script src="main.js"></script>
+
+</head>
+
+<body>
+
+<div class="container-fluid" style="padding-top: 80px; text-align: center;">
+	<h1>Movie Roulet</h1>
+	<h4>Makes movie selection easy...</h4>
+</div>
+
+<div class="container">
+
+	<div class="col col-md-2"></div>
+
+	<div class="row">
+		<div class="col col-md-2" style="height: 400px; background-color: white;">
+
+			<form>
+				<label for="title">Title</label>
+			    <input id="title" type="text">
+			    <label for="actor">Actor/Actress</label>
+			    <input id=actor type="text">
+			    <label for="director">Director</label>
+			    <input id="director" type="text">
+
+			    <button type="submit" class="btn btn-primary" id="searchBtn"> Submit! </button>
+			</form>
+
+		</div>
+
+		<div class="col col-md-3" id="moviePoster" style="text-align: center; background-color: white;">
+			&nbsp;
+		</div>
+		<div class="col col-md-3" id="movieDetails" style="background-color: white;">
+			&nbsp;
+		</div>		
+	</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
